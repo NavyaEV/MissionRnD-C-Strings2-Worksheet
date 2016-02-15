@@ -13,6 +13,8 @@ Note:Dont modify original string Neglect Spaces at the right end and at left end
 char * get_last_word(char * str){
 	int i = 0, l = 0, x = 0, y = 0;
 	char *s = NULL;
+	if (str == NULL)
+		return NULL;
 	while (str[i] != '\0')
 	{
 		l = y;
